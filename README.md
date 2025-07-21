@@ -1,46 +1,29 @@
-📌 RedBus Bus Reviews Scraper & Analysis 🚍✨
-A Streamlit-powered web app to scrape, analyze, and visualize bus service reviews from the RedBus website.
+🚍 RedBus Bus Reviews Scraper & Analysis
+An end-to-end project that scrapes bus details and customer reviews from RedBus using Selenium, cleans the data, and visualizes it with an interactive Streamlit dashboard.
 
-🔍 What this project does
-Automates web scraping of bus details, ratings, and customer reviews from RedBus using Selenium.
+🔧 Tools & Skills
+Python, Selenium (Web Scraping)
 
-Cleans & preprocesses scraped data, storing it neatly in CSV (and can integrate with databases like SQLite / PostgreSQL).
+Data Cleaning & CSV handling
 
-Presents the insights through an interactive Streamlit dashboard — enabling users to explore, filter, and compare bus services easily.
+Streamlit App Development
 
-⚙️ Key Skills & Tools Used
-✅ Python programming
-✅ Web Scraping (Selenium)
-✅ Data Cleaning & Transformation
-✅ Streamlit App Development
-✅ Data Visualization
-✅ SQL / Database Integration
-✅ ETL pipeline design
+Data Visualization & Analysis
 
-🧩 Project Structure
-bash
-Copy
-Edit
-venv/                        # Virtual environment
-Automation.ipynb             # Jupyter notebook with scraping code
-app.py                       # Streamlit app for dashboard & visualization
-apsrtc_all_routes_scraped.csv # Scraped raw data
-output.csv                   # Processed/cleaned data
-requirements.txt             # List of required Python packages
-🎯 Business Use Cases
-Travelers: Quickly compare buses based on real reviews & ratings.
+📊 What it does
+Automates scraping of bus names, routes, ratings, and reviews
 
-Bus operators: Analyze customer sentiment & identify service improvement areas.
+Stores structured data in CSV (ready for database integration)
 
-Future scope: Build personalized recommendation systems for users.
+Presents insights through a user-friendly web app
 
-📊 Results
-Fully functional web scraper + Streamlit dashboard.
+📁 Key files
+Automation.ipynb – Scraping code
 
-Clear, searchable, and filterable bus data & reviews.
+app.py – Streamlit dashboard
 
-Structured, clean dataset ready for further analytics or ML tasks.
+apsrtc_all_routes_scraped.csv – Raw data
 
-💡 Domain: Travel & Transportation | Web Scraping | Data Analytics
+output.csv – Cleaned data
 
-🚀 This project shows hands-on expertise in data extraction, data engineering, and creating real-world data applications — all critical for roles in data science, analytics, and backend development.
+🚀 Domain: Travel & Transportation | Web Scraping | Data Analytics
